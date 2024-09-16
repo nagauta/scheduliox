@@ -1,11 +1,16 @@
 {
   "name": "scheduliox",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nagauta",
   "license": "MIT",
-  "description": "demo for scheduling automation"
+  "description": "demo for scheduling automation",
+  "dependencies": {
+    "@graphai/vanilla": "^0.0.14",
+    "graphai": "^0.5.8",
+    "ts-node": "^10.9.2"
+  }
 }
