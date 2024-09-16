@@ -5,7 +5,7 @@ const graphData = {
   version: 0.5,
   nodes: {
     inputData: {
-      value: "hello, let me know the answer 1 + 1",
+      value: "Please arrange a meeting for Mike and Rei.Mike has 2024/09/22 and 2024/09/23 available.Rei has 2024/09/23 and 2024/09/24 available.",
     },
     llm: {
       agent: "openAIAgent",
