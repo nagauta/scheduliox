@@ -9,6 +9,8 @@
   "license": "MIT",
   "description": "demo for scheduling automation",
   "dependencies": {
+    "@graphai/agents": "^0.0.27",
+    "@graphai/llm_agents": "^0.0.20",
     "@graphai/vanilla": "^0.0.14",
     "graphai": "^0.5.8",
     "ts-node": "^10.9.2"
