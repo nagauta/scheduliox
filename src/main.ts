@@ -51,8 +51,6 @@ const graphData = {
       },
       params: {
         model: "gpt-4o",
-        // baseURL: "http://127.0.0.1:11434/v1",
-        // apiKey: "llama3.1",
       },
     },
     output: {
