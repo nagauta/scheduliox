@@ -70,13 +70,11 @@ const graphData = {
 export const main = async () => {
   const graph = new GraphAI(graphData, agents);
   const result = await graph.run();
-  console.log("result");
-  console.log(JSON.stringify(result));
   if (result) {
     const dateRangeString = result.output.match(/(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}) - (\d{4}\/\d{2}\/\d{2} \d{2}:\d{2})/);
     const startDate = new Date(dateRangeString[1]);
     const endDate = new Date(dateRangeString[2]);
-    console.log(`Start Date: ${startDate}, End Date: ${endDate}`);
+    console.log(`Start Date: ${startDate.toISOString()}, End Date: ${endDate.toISOString()}`);
   }
 };
 
