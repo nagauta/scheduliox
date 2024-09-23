@@ -38,7 +38,7 @@ const graphData = {
       agent: "stringTemplateAgent",
       inputs: [":mikeAgent", ":reiAgent"],
       params: {
-        template: "${0} and ${1}.\n Please suggest 3 meeting slot in 1 hour.",
+        template: "${0} and ${1}.\n Please suggest 1 meeting slot in 1 hour.please follow the format: yyyy/mm/dd hh:ss - yyyy/mm/dd hh:ss",
       },
       console:{
         after: true,
